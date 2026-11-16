@@ -55,7 +55,6 @@ Next.js 16 (App Router) · React 19 · Tailwind v4 · Zustand · Framer Motion �
 ```
 app/
   (cinewave)/       Sonarr UI routes, wrapped in the site header/footer layout
-  aquarium/         Koi pond landing page and game
   jarvis/           Assistant route
   (missed)/         Standalone demo route
   api/jarvis/chat/  Server-side chat proxy
