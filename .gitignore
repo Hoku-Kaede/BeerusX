@@ -1,0 +1,28 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+.vercel
+
+# Local design/dev artifacts
+.figma/
+.shots/
+.opencode/
+
+# Nested projects — each lives in its own repository
+diary/
+lowtide/
+proofline/
+subtrack-site/
+dina/
+dina-award/
+rvc-voice-studio/
+voice-translate/
+scrapes/

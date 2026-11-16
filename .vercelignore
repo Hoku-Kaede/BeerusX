@@ -1,0 +1,16 @@
+node_modules
+.next
+.git
+*.log
+.env*
+opencode
+.shots
+.figma
+diary
+proofline
+rvc-voice-studio
+subtrack-site
+dina
+dina-award
+lowtide
+scrapes
