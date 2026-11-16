@@ -20,12 +20,6 @@ BeerusX reads your Sonarr library server-side (API key never reaches the browser
 | `/store`, `/sideprojectors`, `/templates-for-notion` | Storefront and marketing page experiments |
 | `/missed-call` | Small standalone interaction demo |
 
-## Aquarium landing page
-
-`/aquarium` is a standalone interactive landing page: a WebGL koi pond built from an original Figma composition. Three koi are rigged as a living school of twenty-bone skeletons, with a small decorating game on top. It has its own layout chrome, its own metadata and its own `aquarium.css`, and it can be linked as a microsite from anywhere in the app.
-
-The page is self-contained — `app/aquarium/page.tsx` plus `components/aquarium/` — and does not depend on the Sonarr library.
-
 
 ## Run
 
