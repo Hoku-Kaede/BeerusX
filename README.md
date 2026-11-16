@@ -1,14 +1,14 @@
-# Cinewave
+# BeerusX
 
 A cinematic streaming front-end for your Sonarr library — plus a handful of side experiments that live in the same Next.js app.
 
-Cinewave reads your Sonarr library server-side (API key never reaches the browser), renders it as a poster-driven streaming UI with rails, search, series and episode pages, watchlist and a deep-link player. With no Sonarr configured it runs in demo mode against a built-in mock library.
+BeerusX reads your Sonarr library server-side (API key never reaches the browser), renders it as a poster-driven streaming UI with rails, search, series and episode pages, watchlist and a deep-link player. With no Sonarr configured it runs in demo mode against a built-in mock library. The root `/` redirects to `/browse`.
 
-## Routes
+## Pages
 
 | Route | What it is |
 |---|---|
-| `/aquarium` | Landing page — a WebGL koi pond with a small decorating game |
+| `/` | Redirects to `/browse` |
 | `/browse` | Poster grid for the whole library |
 | `/search` | Search across series |
 | `/my-list` | Watchlist |
@@ -19,6 +19,13 @@ Cinewave reads your Sonarr library server-side (API key never reaches the browse
 | `/jarvis` | Minimal assistant UI backed by any OpenAI-compatible endpoint |
 | `/store`, `/sideprojectors`, `/templates-for-notion` | Storefront and marketing page experiments |
 | `/missed-call` | Small standalone interaction demo |
+
+## Aquarium landing page
+
+`/aquarium` is a standalone interactive landing page: a WebGL koi pond built from an original Figma composition. Three koi are rigged as a living school of twenty-bone skeletons, with a small decorating game on top. It has its own layout chrome, its own metadata and its own `aquarium.css`, and it can be linked as a microsite from anywhere in the app.
+
+The page is self-contained — `app/aquarium/page.tsx` plus `components/aquarium/` — and does not depend on the Sonarr library.
+
 
 ## Run
 
